@@ -1,0 +1,25 @@
+{
+  "development": {
+    "username": "root",
+    "password": "icewinddale",
+    "database": "quiz_seq_db_backup",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "ptdb0inixyx5womg",
+    "password": "nqwg9bl1t5fsbblf",
+    "database": "wumdghxen755102j",
+    "host": "h2cwrn74535xdazj.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql",
+    "logging": false
+  },
+  "production": {
+    "username": "ptdb0inixyx5womg",
+    "password": "nqwg9bl1t5fsbblf",
+    "database": "wumdghxen755102j",
+    "host": "h2cwrn74535xdazj.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql",
+    "logging": false
+  }
+}

@@ -1,0 +1,218 @@
+body{
+    background-color: #F7F8F8;
+    position: relative;
+  }
+
+.questionCard{
+    background-color: white;
+    width: 1120px;
+    height: 500px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 32px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+}
+.upperBlock{
+    display: flex;
+    justify-content: space-between;
+}
+#closePage{
+    width: 24px;
+    height: 24px;
+    margin: 32px 16px 0px 45px;
+    background: url(../../../public/images/close.png)
+}
+
+.progress{
+    width: 100%;
+    height: 24px;
+    margin: 32px 40px 0px 0px;
+    position: relative;
+}
+#progressIncomplete{
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #e5e8e9;
+    position: absolute;
+    top: 40%;   
+}
+
+#progressComplete{
+    width: 0%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #ff9800;;
+    position: absolute;
+    top: 40%;   
+}
+.questionsArea{
+    width: 736px;
+    margin: auto;
+    height: 60%;
+}
+
+.questionNumber{
+    font-size: 12px;
+    color: #768c96;
+    width: 100%;
+    margin-top: 36px;
+}
+.questionText{
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #232e33;
+}
+.specifyAnswer{
+    margin-top: 8px;
+    color: #768c96;
+    font-size: 14px;
+}.answersParent{
+    width: 100%;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #232e33;
+}
+.answerBlock{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: left;
+}
+.answerBlock_checked{
+    background-color: rgba(3, 155, 229, 0.1);
+    border-radius: 2px;
+}
+.answerBlock__checkBox{
+    width: 16px;
+    height: 16px;
+    margin: 12px;
+    background: url(../../../public/images/checkbox_unchecked.png)
+}
+.answerBlock__checkBox_checked{
+    background: url(../../../public/images/checkbox_checked.png)
+}
+.answerBlock__answerText{
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #232e33;
+}
+.answerBlock__answerText_checked{
+    color: #039be5;
+}
+.buttonArea{
+    position: relative;
+}
+.actionbutton{
+    width: 200px;
+    height: 48px;
+    border-radius: 4px;
+    background-color: #039be5;
+    font-size: 16px;
+    color: #ffffff;
+    position: absolute;
+    right: 40px;
+    top: 30px;
+    outline: none;
+    border:none;
+}
+.nextbutton{
+    background-color: #65B533;
+}
+
+.nextbuttonFailed{
+    background-color: #FF5722;
+}
+
+#correctAnswerPopUp{
+    height: 110px;
+    background-color: rgba(90%, 91%, 91%, 0.4);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: none;
+}
+.correctAnswerPopUp__contentRight{
+    display: flex;
+}
+.answerText{
+    line-height: 110px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.correctPhrase{
+    color: #65B533;
+}
+
+.correctAnswerPopUp__contentRight_icon{
+    width: 80px;
+    height: 80px;
+    margin: 15px 23px 15px 40px;
+    background: url(../../../public/images/correct.png)
+}
+
+#incorrectAnswerPopUp{
+    height: 110px;
+    background-color: rgba(90%, 91%, 91%, 0.4);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: none;
+}
+.incorrectAnswerPopUp__contentRight{
+    display: flex;
+}
+.answerText{
+    line-height: 110px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 5px;
+}
+.incorrectPhrase{
+    color: #FF5722;
+}
+
+.incorrectAnswerPopUp__contentRight_icon{
+    width: 80px;
+    height: 80px;
+    margin: 15px 23px 15px 40px;
+    background: url(../../../public/images/failed.png)
+}
+
+#testResultsArea{
+    display:none;
+}
+.circrleParent{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+}
+.finishHeader{
+    width: 100%;
+    height: 48px;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    color: #232e33;
+    margin-top: 20px;
+}
+#textResult{
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    line-height: 2;
+    color: #768c96;
+    text-align: center;
+}
+.finishButtonParent{
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+}
+#finishButton{
+    position: static;
+}
+
+

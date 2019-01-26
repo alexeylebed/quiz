@@ -1,0 +1,69 @@
+<link rel="stylesheet" href="/styles/circle.css">
+<link rel="stylesheet" href="/styles/styles.css" media="screen" title="no title" charset="utf-8">
+<link rel="stylesheet" href="/styles/styles_test.css" media="screen" title="no title" charset="utf-8">
+<header>
+  <div class = 'container'>
+    <div class = 'headerParent'>
+      <div class = 'headerParend__left'>
+        <img id = 'logoimg' src="../../../public/images/logo.png" alt="logo">
+        <div id = 'productName'>ANSR</div>
+      </div>
+      <div class = 'headerParend__right'>
+        <img id = 'avatar' src="../../../public/images/avatar.png" alt="avatar">
+      </div>
+    </div>
+  </div>
+</header>
+<div class = 'questionCard'>
+    <section class = 'upperBlock' id = 'upperBlock'>
+        <div id = 'closePage'></div>
+        <div class = 'progress'>
+            <div id = 'progressIncomplete'></div>
+            <div id = 'progressComplete'></div>
+        </div>
+    </section>
+    <section class = 'questionsArea' id = 'questionsArea'>
+        <div></div>
+    </section>
+    <section class = 'buttonArea' id = 'buttonArea'>
+        <button class = 'actionbutton' id = 'checkButton'>Check</button>
+        <section id ='correctAnswerPopUp'>
+            <div class = 'correctAnswerPopUp__contentRight'>
+                <div class = 'correctAnswerPopUp__contentRight_icon'></div>
+                <div class = 'correctPhrase answerText'>Correct </div>
+                <div class = 'answerText' id = 'rightAnswerText'>, the right answer is blablabla</div>
+            </div>
+            <div class = 'correctAnswerPopUp__contentRight'>
+                <button class = 'actionbutton nextbutton' id= 'nextButton'>Next</button>
+            </div>
+        </section>
+        <section id ='incorrectAnswerPopUp'>
+            <div class = 'incorrectAnswerPopUp__contentRight'>
+                <div class = 'incorrectAnswerPopUp__contentRight_icon'></div>
+                <div class = 'incorrectPhrase answerText'>Mistake </div>
+                <div class = 'answerText' id = 'wrongAnswerText'>, the right answer is blablabla</div>
+            </div>
+            <div class = 'incorrectAnswerPopUp__contentRight'>
+                <button class = 'actionbutton nextbuttonFailed' id = 'nextButtonIncorrect'>Next</button>
+            </div>
+        </section>
+    </section>
+    <section id = 'testResultsArea'>
+        <div class = 'circrleParent'>
+            <div class="c100 p25 custom" id = 'circle_result'>
+                <span id='circleTextResult'>8/10</span>
+                <div class="slice">
+                    <div class="bar"></div>
+                    <div class="fill"></div>
+                </div>
+            </div>
+        </div>
+        <div class ='finishHeader'>Congratulations! You've completed the test!</div>
+        <div id ='textResult'>Your result is 8/10 correct answers</div>
+        <div class = 'finishButtonParent'>
+            <button class = 'actionbutton' id = 'finishButton'>More tests</button>
+        </div>
+    </section>
+</div>
+<script src =  "../../../public/js/logo.js"></script>
+<script src =  "../../../public/js/test.js"></script>
